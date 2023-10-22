@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HeroApp';
+  hero = {
+    name: '',
+    power: 0,
+    image: '',
+  }
+  heros: any[] = [];
 }
